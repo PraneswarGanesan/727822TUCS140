@@ -1,10 +1,15 @@
 package com.calculator.app.avg.model;
-import lombok.Getter;
-import lombok.Setter;
+
 import java.util.List;
 
-@Getter
-@Setter
 public class NumberResponse {
     private List<Integer> numbers;
+
+    public List<Integer> getNumbers() {
+        return numbers;
+    }
+
+    public void setNumbers(List<Integer> numbers) {
+        this.numbers = numbers;
+    }
 }
